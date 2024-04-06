@@ -8,6 +8,7 @@ import glob
 import unicodedata
 
 SELF = os.path.basename(__file__)
+EXEC_ROOT=os.path.dirname(os.path.abspath(__file__))
 
 def _init():
     parser = argparse.ArgumentParser(
